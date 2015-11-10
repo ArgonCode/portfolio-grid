@@ -1,0 +1,23 @@
+/*********** FONTS ***********/
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Play', sans-serif;
+}
+
+
+/*********** IMAGES ***********/
+
+#img-sylwia {
+  border-radius: 50%;
+  max-height: 110px;
+  margin: 15px;
+}
+
+#img-rocks {
+  max-height: 300px;
+  width: 100%;
+}
