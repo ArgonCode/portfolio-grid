@@ -1,3 +1,11 @@
+/***** REMOVE ALL CORNERS *********/
+
+* {
+  -webkit-border-radius: 0 !important;
+     -moz-border-radius: 0 !important;
+          border-radius: 0 !important;
+}
+
 /***** TEXT AND COLOR SCHEME *********/
 body {
   font-family: 'PT Sans', sans-serif;
@@ -5,7 +13,9 @@ body {
   color: #f6f8ff;
 }
 
-h1, h2, h3 {
+h1, 
+h2, 
+h3 {
   font-family: 'Play', sans-serif;
 }
 
@@ -31,8 +41,8 @@ a:visited {
 }
 
 /*********** IMAGES *******************/
-#img-sylwia {
-  border-radius: 50%;
+#img-logo {
+  border-radius: 50% !important; /* ovverride the *{} style */
   max-height: 110px;
   margin: 15px;
 }
@@ -57,6 +67,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -73,4 +84,72 @@ body {
   width: 100%;
   text-align: center;
   float: none;
+}
+
+/************* MODALS ****************/
+
+.modal-body {
+  background-color: #6a8eae;
+  color: #f6f8ff;
+}
+
+.modal-content {
+  background-color: #6a8eae;
+  color: #f6f8ff;
+}
+
+.modal-footer {
+  border-top: 1px solid #f6f8ff;
+}
+
+.modal-header {
+  border-bottom: 1px solid #f6f8ff;
+}
+ 
+/************* CUSTOM BUTTON ****************/
+
+.btn-themecolor { 
+  color: #6a8eae; 
+  background-color: #f6f8ff; 
+  border-color: #f6f8ff; 
+} 
+ 
+.btn-themecolor:hover, 
+.btn-themecolor:focus, 
+.btn-themecolor:active, 
+.btn-themecolor.active, 
+.open .dropdown-toggle.btn-themecolor { 
+  color: #6a8eae; 
+  background-color: #f6f8ff; 
+  border-color: #f6f8ff; 
+} 
+ 
+.btn-themecolor:active, 
+.btn-themecolor.active, 
+.open .dropdown-toggle.btn-themecolor { 
+  background-image: none; 
+} 
+ 
+.btn-themecolor.disabled, 
+.btn-themecolor[disabled], 
+fieldset[disabled] .btn-themecolor, 
+.btn-themecolor.disabled:hover, 
+.btn-themecolor[disabled]:hover, 
+fieldset[disabled] .btn-themecolor:hover, 
+.btn-themecolor.disabled:focus, 
+.btn-themecolor[disabled]:focus, 
+fieldset[disabled] .btn-themecolor:focus, 
+.btn-themecolor.disabled:active, 
+.btn-themecolor[disabled]:active, 
+fieldset[disabled] .btn-themecolor:active, 
+.btn-themecolor.disabled.active, 
+.btn-themecolor[disabled].active, 
+fieldset[disabled] .btn-themecolor.active { 
+  background-color: #f6f8ff; 
+  border-color: #f6f8ff; 
+} 
+ 
+.btn-themecolor .badge { 
+  color: #f6f8ff; 
+  background-color: #6a8eae; 
 }
