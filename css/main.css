@@ -1,9 +1,8 @@
-/*********** FONTS AND COLOR SCHEME ***********/
-
+/***** TEXT AND COLOR SCHEME *********/
 body {
   font-family: 'PT Sans', sans-serif;
-  background-color: #6A8EAE;
-  color: #F6F8FF;
+  background-color: #6a8eae;
+  color: #f6f8ff;
 }
 
 h1, h2, h3 {
@@ -11,26 +10,24 @@ h1, h2, h3 {
 }
 
 a {
-  color: #F6F8FF;
-  text-decoration-line: underline;
-  text-decoration-style: solid;  
-}
-
-.social-icons a {
-  text-decoration-line: none;
-  color: #020300;
+  color: #f6f8ff;
+  text-decoration: underline solid;
 }
 
 a:hover {
   color: #020300;
-} 
+}
 
-a:visited .social-icons a:visited {
+a:visited {
   color: #020300;
-} 
+}
 
-/*********** IMAGES ***********/
+.social-icons a {
+  text-decoration: none;
+  color: #020300;
+}
 
+/*********** IMAGES *******************/
 #img-sylwia {
   border-radius: 50%;
   max-height: 110px;
@@ -42,28 +39,18 @@ a:visited .social-icons a:visited {
   width: 100%;
 }
 
-/*******************************/
-
+/**************************************/
 #hr-header {
   border: 0;
   height: 2px;
-  background-image: linear-gradient(to right, rgba(246, 248, 255, 0), rgba(246, 248, 255, 0.75), rgba(246, 248, 255, 0)); /* F6F8FF */
+  background-image: linear-gradient(to right, rgba(246, 248, 255, 0), rgba(246, 248, 255, 0.75), rgba(246, 248, 255, 0)); /* f6f8ff */
 }
 
-.social-icons {
-  font-size: 2rem;
-  padding: 0.5em;
-  width: 100%;
-  text-align: center;
-  float: none;
-}
-
-.row {
+#last-row {
   margin-bottom: 20px;
 }
 
 /************* STICKY FOOTER **********/
-
 html {
   position: relative;
   min-height: 100%;
@@ -76,6 +63,15 @@ body {
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #EFF0E4;
+  background-color: #eff0e4;
   padding: 10px;
+}
+
+/************* FOOTER ICONS **********/
+.social-icons {
+  font-size: 2rem;
+  padding: 0.5em;
+  width: 100%;
+  text-align: center;
+  float: none;
 }
