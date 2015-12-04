@@ -58,7 +58,7 @@
             <img src="img/project2.png" class="center-block img-responsive" data-toggle="modal" data-target="#project2" alt="#">
             <h3>Awesome App</h3>
             <a href="http://github.com/argoncode/">source</a>
-            <a href="http://static.argoncode.com/portfolio-grid">demo</a>
+            <a href="http://static.argoncode.com/udacity/">demo</a>
           </div>
         </div>
       </div>
@@ -67,24 +67,24 @@
         <img src="img/project3.png" class="center-block img-responsive" data-toggle="modal" data-target="#project3" alt="#">
         <h3>App app away</h3>
         <a href="http://github.com/argoncode/">source</a>
-        <a href="http://static.argoncode.com/portfolio-grid/">demo</a>
+        <a href="http://static.argoncode.com/udacity/">demo</a>
 
         <img src="img/project4.png" class="center-block img-responsive" data-toggle="modal" data-target="#project4" alt="#">
         <h3>Hey hey</h3>
         <a href="http://github.com/argoncode/">source</a>
-        <a href="http://static.argoncode.com/portfolio-grid/">demo</a>
+        <a href="http://static.argoncode.com/udacity/">demo</a>
       </div>
 
       <div class="col-sm-6 col-md-4">
         <img src="img/project5.png" class="center-block img-responsive" data-toggle="modal" data-target="#project5" alt="#">
         <h3>Fun Sunday</h3>
         <a href="http://github.com/argoncode/">source</a>
-        <a href="http://static.argoncode.com/portfolio-grid/">demo</a>
+        <a href="http://static.argoncode.com/udacity/">demo</a>
 
         <img src="img/project6.png" class="center-block img-responsive" data-toggle="modal" data-target="#project6" alt="#">
         <h3>Totally Fake</h3>
         <a href="http://github.com/argoncode/">source</a>
-        <a href="http://static.argoncode.com/portfolio-grid/">demo</a>
+        <a href="http://static.argoncode.com/udacity/">demo</a>
       </div>
     </div><!-- /.row -->
   </div><!-- /.container -->
