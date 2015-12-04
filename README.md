@@ -36,4 +36,4 @@ MIT
 
 ## Bugs
 1. Report via pull request and/or comments.
-2. Current bugs are on [github issus](https://github.com/ArgonCode/portfolio0grid/issues).
+2. Current bugs are on [github issus](https://github.com/ArgonCode/portfolio-grid/issues).
