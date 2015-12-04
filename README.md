@@ -1,6 +1,6 @@
 # README
 ## Portfolio-grid
-This is a simple portfolio website proof. It is based on the [Udacity mockup](project_files/design-mockup-portfolio.pdf). It is customized to be more flat and modern.
+This is a simple portfolio website proof. It is based on the Udacity mock-up. It is customized to be more flat and modern. ![Udacity mockup](img/mockup.png).
 
 ### Author / Contact
 * ![](https://dl.dropboxusercontent.com/u/633848/Images/github_24_black.png) [github](http://www.github.com/argoncode)
